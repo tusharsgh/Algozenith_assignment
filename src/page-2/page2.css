@@ -1,0 +1,113 @@
+.page2container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:20px;
+    padding:40px;
+    /* background:linear-gradient(180deg, #3F6FC1 0%, #05445E 100%); */
+}
+.earn{
+    background: linear-gradient(180deg, #3F6FC1 0%, #05445E 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Rubik;
+font-size: 54px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px;
+letter-spacing: -1.92px;
+}
+.page2header{
+    color: #000;
+    max-width: 35rem;
+font-family: Rubik;
+font-size: 54px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 140.625% */
+letter-spacing: -1.92px;
+}
+.page2headerwrapper{
+   /* max-width: 35rem; */
+   display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.page2text{
+    color: #000;
+    max-width: 35rem;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+letter-spacing: -0.72px;
+}
+.bullets{
+width: 60px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #D9D9D9;
+}
+.points{
+    display: flex;
+    align-items:center;
+    gap:8px;
+    flex-grow: 1;
+}
+.pointshighlights{
+    color: #000;
+
+font-family: DM Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 112.5% */
+letter-spacing: -0.96px;
+}
+.pointtext{
+    color: #000;
+font-family: DM Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.72px;
+}
+.rowwrapper{
+    display: flex;
+    gap:46px;
+}
+.pointswrapper{
+    display: flex;
+    flex-direction: column;
+    gap:46px;
+}
+.pag2textwrapper{
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+}
+.CTAbackground{
+    display: grid;
+    
+
+}
+.position{
+    /* position: absolute; */
+    /* z-index: 2; */
+    grid-area: 1/1;
+
+}
+
+.CTAcross{
+     opacity: 6%; 
+    z-index: 1;
+    width: 431px;
+    height: 598px;
+    grid-area: 1/1;
+   align-self: end;
+}

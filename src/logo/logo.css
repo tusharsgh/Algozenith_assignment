@@ -1,0 +1,201 @@
+.logo-inner-wrapper{
+
+    /* height: 220px;
+    width:220px; */
+    padding: 30px;
+   background: linear-gradient(135deg, #FFF 0%, rgba(255, 255, 255, 0.70) 101.3%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 0px 4px 200px 0px #406CB8, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 2px 4px 0px #FFF inset;
+
+backdrop-filter: blur(12.5px);
+
+}
+.logo-outer-wrapper{
+display: flex;
+padding:15px;
+align-items: center;
+justify-content: center;
+    /* width: 268px;
+height: 268px; */
+border-radius: 6px;
+border: 0.5px solid #FFF;
+
+background: linear-gradient(180deg, rgba(0, 60, 87, 0.80) 0%, rgba(2, 12, 19, 0.60) 130%);
+
+box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(115, 166, 255, 0.60);
+backdrop-filter: blur(12.5px);
+z-index: 2;
+}
+.logo{
+    width:148px;
+    height: 138px;
+}
+.line{
+width: 390px;
+height: 10px;
+background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 3.36%, #FFF 48.99%, rgba(255, 255, 255, 0.00) 97.56%);
+}
+
+.line-ver{
+width: 10px;
+height: 390px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 3.36%, #FFF 48.99%, rgba(255, 255, 255, 0.00) 97.56%);
+
+
+}
+.line-hor-wrapper{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.line-ver-wrapper{
+display: flex;
+gap:10px;
+position: absolute;
+}
+.line-wrapper{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+position:absolute;
+z-index: 1;
+}
+.logo-wrapper{
+    display: flex;
+   position: relative;
+   flex-direction:column;
+   height:478px;
+   width:478px;
+   align-items: center;
+   justify-content: center;
+}
+.search{
+    width: 60px;
+height: 60px;
+opacity: 40%;
+filter: blur(1px);
+}
+.tab-wrapper{
+display: flex;
+align-items: center;
+gap:24px;
+
+padding:12px;
+border-radius: 12px;
+background: linear-gradient(93deg, #05445E 10%,#29539B 101.3%);
+padding-right:120px;
+/* width:320px; */
+/* position: absolute; */
+
+}
+.logo-text{
+    color: #ffffff61;
+    white-space: nowrap;
+font-family: DM Sans;
+font-size:18px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 153.846% */
+letter-spacing: -0.56px;
+}
+.display-wrapper{
+display: flex;
+align-items: center;    
+/* flex-direction: column; */
+/* height: 550px;
+width: 660px; */
+justify-content: center;
+position: relative;
+
+}
+.two-wrapper-1{
+    display: flex;
+    gap:43px;
+    margin-left: -5%;
+}
+.two-wrapper-2{
+    display: flex;
+    gap:23px;
+   margin-left: -40%;
+}
+
+.two-wrapper-3{
+    display: flex;
+    /* gap:13px; */
+    margin-left:-10%;
+    
+}
+.two-wrapper-4{
+    display: flex;
+    gap:43px;
+    margin-left:-32%;
+}
+.button-wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    gap:40px;
+    position:absolute;
+    align-items: center;
+}
+.Cross-img{
+ opacity: 5%;
+}
+.button-flex-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: absolute;
+    align-items: center;
+}
+.search_bottom{
+    width: 60px;
+    height: 60px;
+    opacity: 2%;
+    filter: blur(1px)
+}
+.logo-text_bottom{
+    color: #ffffffa7;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.56px;
+    opacity: 11%;
+}
+.search_2{
+    width: 60px;
+    height: 60px;
+    opacity: 40%;
+   
+}
+.tab-wrapper_leftmost{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    
+    padding:12px;
+    border-radius: 12px;
+    background: linear-gradient(234deg, #05445E 10%,#29539B 101.3%);
+    padding-right:120px;  
+}
+@media(max-width:1103px){
+    .logo{
+        width:78px;
+        height:78px;
+    }
+    .line {
+        width: 300px;
+        height: 10px;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 3.36%, #FFF 48.99%, rgba(255, 255, 255, 0.00) 97.56%);
+    }
+    .line-ver {
+        width: 10px;
+        height: 300px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 3.36%, #FFF 48.99%, rgba(255, 255, 255, 0.00) 97.56%);
+    }
+}

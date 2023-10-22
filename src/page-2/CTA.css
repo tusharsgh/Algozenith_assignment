@@ -1,0 +1,112 @@
+.CTA13{
+    background: linear-gradient(90deg, #3F6FC1 0%, #05445E 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Rubik;
+font-size: 62px;
+font-style: normal;
+font-weight: 800;
+line-height: 62px; /* 100% */
+letter-spacing: -2.16px;
+}
+.CTA19{
+    color: #818181;
+
+font-family: Rubik;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px; /* 128.571% */
+letter-spacing: -1.68px;
+text-decoration-line: line-through;
+}
+.CTApremium{
+    color: #0F0F0F;
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.72px;
+}
+.CTAheadertextwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left:30px;
+    
+    /* padding-top: 10px; */
+}
+.CTAlogo{
+opacity: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+ 
+
+
+
+}
+.CTAheader{
+    display: flex;
+    align-items: center;
+    /* border-radius: 16px 16px 0px 0px; */
+background: #ffffff;
+border-radius: 16px 16px 0px 0px;
+box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
+}
+.Z{
+    position:absolute;
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+}
+.CTAwrapper{
+    /* box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6); */
+   display: flex;
+   flex-direction: column;
+
+
+}
+.CTAbox{
+    /* opacity: 90%; */
+    background: linear-gradient(1deg, #406CB8 -50%, #022534 100%);
+    color: #0F0F0F;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 28px;
+    border-radius:  0px 0px 16px 16px;
+    box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
+}
+.CTAtext{
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+    letter-spacing: -0.72px;
+}
+.CTAtextwrapper{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.CTApoint{
+    height:50px;
+    width:50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+border: 1px solid #CFF1FF;
+}
+.CTAbutton{
+    border-radius: 8px;
+background: linear-gradient(91deg, #FFF 0%, #DFF6FF 144.63%);
+padding: 16px 20px;
+flex-grow: 1;
+}

@@ -12,7 +12,7 @@
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-family: Rubik;
+/* font-family: Rubik; */
 font-size: 54px;
 font-style: normal;
 font-weight: 800;
@@ -22,7 +22,7 @@ letter-spacing: -1.92px;
 .page2header{
     color: #000;
     max-width: 35rem;
-font-family: Rubik;
+/* font-family: Rubik; */
 font-size: 54px;
 font-style: normal;
 font-weight: 800;
@@ -38,7 +38,7 @@ letter-spacing: -1.92px;
 .page2text{
     color: #000;
     max-width: 35rem;
-font-family: DM Sans;
+/* font-family: DM Sans; */
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -46,7 +46,7 @@ line-height: 20px; /* 166.667% */
 letter-spacing: -0.72px;
 }
 .bullets{
-width: 60px;
+width: 53px;
 height: 60px;
 flex-shrink: 0;
 border-radius: 8px;
@@ -70,8 +70,8 @@ letter-spacing: -0.96px;
 }
 .pointtext{
     color: #000;
-font-family: DM Sans;
-font-size: 24px;
+/* font-family: DM Sans; */
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 36px;
@@ -106,7 +106,7 @@ letter-spacing: -0.72px;
 .CTAcross{
      opacity: 6%; 
     z-index: 1;
-    width: 431px;
+    width: 480px;
     height: 598px;
     grid-area: 1/1;
    align-self: end;

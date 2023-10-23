@@ -112,6 +112,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   overflow: visible;
+  margin:-12px;
 }
 .page1textwrapper{
 

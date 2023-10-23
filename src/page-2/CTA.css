@@ -3,7 +3,7 @@
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-/* font-family: Rubik; */
+font-family: Rubik;
 font-size: 62px;
 /* font-style: normal; */
 font-weight: 800;
@@ -13,7 +13,7 @@ letter-spacing: -2.16px;
 .CTA19{
     color: #818181;
 
-/* font-family: Rubik; */
+font-family: Rubik;
 font-size: 46px;
 /* font-style: normal; */
 font-weight: 700;
@@ -24,7 +24,7 @@ text-decoration-line: line-through;
 .CTApremium{
     color: #0F0F0F;
 
-/* font-family: DM Sans; */
+font-family: DM Sans;
 font-size: 18px;
 /* font-style: normal; */
 font-weight: 500;
@@ -86,7 +86,7 @@ box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
 .CTAtext{
     color: #FFF;
 
-    /* font-family: DM Sans; */
+    font-family: DM Sans;
     font-size: 18px;
     /* font-style: normal; */
     font-weight: 400;

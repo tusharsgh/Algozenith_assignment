@@ -121,9 +121,9 @@ justify-content: center;
   max-width: 42rem;
 }
 .page1header{
-  /* font-family: Rubik; */
+  font-family: Rubik;
   color:white;
-  font-size:60px;
+  font-size:53px;
   font-weight:800;
   flex-shrink:1;
 }

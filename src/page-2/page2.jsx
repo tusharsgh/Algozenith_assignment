@@ -8,7 +8,7 @@ function page2text() {
       <div className="pag2textwrapper">
         <div className="page2headerwrapper">
         <div className="page2header">
-        Invest in skills,<p ><i className="earn">earn 10X</i>  of what you paid.</p>
+        Invest in skills,<p className="spacing"><i className="earn">earn 10X</i>  of what you paid.</p>
         </div>
      
       <div className="page2text">
@@ -20,7 +20,7 @@ function page2text() {
           <div className="points">
           <div className="bullets"></div>
           <div className="pointtext">
-         <p className="pointshighlights"> 1.2 Cr/Year</p> highest fresher package
+         <p className="pointshighlights"> 1.2 Cr/Year</p > highest fresher package
           </div>
           </div>
           <div className="points">

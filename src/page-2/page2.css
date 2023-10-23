@@ -12,7 +12,7 @@
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-/* font-family: Rubik; */
+font-family: Rubik;
 font-size: 54px;
 font-style: normal;
 font-weight: 800;
@@ -22,7 +22,7 @@ letter-spacing: -1.92px;
 .page2header{
     color: #000;
     max-width: 35rem;
-/* font-family: Rubik; */
+font-family: Rubik;
 font-size: 54px;
 /* font-style: normal; */
 font-weight: 800;
@@ -38,7 +38,7 @@ letter-spacing: -1.92px;
 .page2text{
     color: #000;
     max-width: 35rem;
-/* font-family: DM Sans; */
+font-family: DM Sans;
 font-size: 20px;
 /* font-style: normal; */
 font-weight: 400;
@@ -60,7 +60,7 @@ background: #D9D9D9;
 }
 .pointshighlights{
     color: #000;
-
+margin: 0;
 font-family: DM Sans;
 font-size: 28px;
 /* font-style: normal; */
@@ -70,7 +70,7 @@ letter-spacing: -0.96px;
 }
 .pointtext{
     color: #000;
-/* font-family: DM Sans; */
+font-family: DM Sans;
 font-size: 18px;
 /* font-style: normal; */
 font-weight: 400;
@@ -110,4 +110,12 @@ letter-spacing: -0.72px;
     height: 598px;
     grid-area: 1/1;
    align-self: end;
+}
+.spacing{
+    margin: 0;
+}
+@media screen and (max-width:460px){
+    .CTAcross{
+       display: none;
+   }  
 }

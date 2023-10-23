@@ -13,7 +13,7 @@ import AZ from "../assests/AZ-logo.png"
 function Logo() {
   return (
     <div className="display-wrapper">
-   
+     <div className="logo-grid">
     <div className='logo-wrapper'>
     <div className="logo-outer-wrapper"> 
  
@@ -46,7 +46,6 @@ function Logo() {
     </div>
     </div>
         <div className="button-wrapper">
-        <img src={Cross} className="Cross-img"></img> 
         <div className="button-flex-wrapper">
        <div className="two-wrapper-1">
       <div className="tab-wrapper">
@@ -64,8 +63,8 @@ function Logo() {
         <div className="logo-text">Backtracking</div>
       </div>
       <div className="tab-wrapper">
-        <img src={Branch} className="search"></img>
-        <div className="logo-text">d</div>
+        {/* <img src={Branch} className="search"></img> */}
+        <div className="logo-text"></div>
       </div>
       </div>
       <div className="two-wrapper-3">
@@ -89,8 +88,13 @@ function Logo() {
       </div>
       </div>
       </div>
+        {/* <img src={Cross} className="Cross-img"></img>  */}
+        
       </div>
-      
+
+     
+      </div>
+   <img src={Cross} className="Cross-img"></img>
     </div>
   )
 }

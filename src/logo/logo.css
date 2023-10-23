@@ -72,6 +72,7 @@ z-index: 1;
    width:478px;
    align-items: center;
    justify-content: center;
+   grid-area: 1/1;
 }
 .search{
     width: 60px;
@@ -103,13 +104,8 @@ line-height: 40px; /* 153.846% */
 letter-spacing: -0.56px;
 }
 .display-wrapper{
-display: flex;
-align-items: center;    
-/* flex-direction: column; */
-/* height: 550px;
-width: 660px; */
-justify-content: center;
-position: relative;
+display: grid;   
+
 
 }
 .two-wrapper-1{
@@ -120,13 +116,13 @@ position: relative;
 .two-wrapper-2{
     display: flex;
     gap:23px;
-   margin-left: -40%;
+   margin-left: -20%;
 }
 
 .two-wrapper-3{
     display: flex;
     /* gap:13px; */
-    margin-left:-10%;
+    margin-left:10%;
     
 }
 .two-wrapper-4{
@@ -138,17 +134,21 @@ position: relative;
     display: flex;
     /* flex-direction: column; */
     gap:40px;
-    position:absolute;
+    /* position:absolute; */
     align-items: center;
+    grid-area: 1/1;
 }
 .Cross-img{
  opacity: 5%;
+ max-width: 700px;
+max-height:500px;
+ grid-area: 1/1;
 }
 .button-flex-wrapper{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    position: absolute;
+    /* position: absolute; */
     align-items: center;
 }
 .search_bottom{
@@ -183,6 +183,13 @@ position: relative;
     background: linear-gradient(234deg, #05445E 10%,#29539B 101.3%);
     padding-right:120px;  
 }
+.logo-grid{
+    display: grid;
+    grid-area:1/1;
+    align-self: start;
+    place-items: center;
+}
+
 @media(max-width:1103px){
     .logo{
         width:78px;

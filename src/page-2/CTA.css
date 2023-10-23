@@ -5,7 +5,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 /* font-family: Rubik; */
 font-size: 62px;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 800;
 line-height: 62px; /* 100% */
 letter-spacing: -2.16px;
@@ -15,7 +15,7 @@ letter-spacing: -2.16px;
 
 /* font-family: Rubik; */
 font-size: 46px;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 700;
 line-height: 42px; /* 128.571% */
 letter-spacing: -1.68px;
@@ -26,7 +26,7 @@ text-decoration-line: line-through;
 
 /* font-family: DM Sans; */
 font-size: 18px;
-font-style: normal;
+/* font-style: normal; */
 font-weight: 500;
 line-height: 32px; /* 133.333% */
 letter-spacing: -0.72px;
@@ -36,7 +36,7 @@ letter-spacing: -0.72px;
     flex-direction: column;
     align-items: start;
     padding-left:30px;
-    
+    /* justify-content: space-between; */
     /* padding-top: 10px; */
 }
 .CTAlogo{
@@ -55,6 +55,7 @@ flex-direction: column;
     align-items: center;
     /* border-radius: 16px 16px 0px 0px; */
 background: #ffffff;
+justify-content: space-between;
 border-radius: 16px 16px 0px 0px;
 box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
 }
@@ -87,7 +88,7 @@ box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
 
     /* font-family: DM Sans; */
     font-size: 18px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 400;
     line-height: 20px; /* 166.667% */
     letter-spacing: -0.72px;
@@ -109,4 +110,12 @@ border: 1px solid #CFF1FF;
 background: linear-gradient(91deg, #FFF 0%, #DFF6FF 144.63%);
 padding: 16px 20px;
 flex-grow: 1;
+}
+@media (max-width:460px) {
+    .svg-img{
+     display: none;
+    }   
+    .Z{
+        display: none;
+    }
 }

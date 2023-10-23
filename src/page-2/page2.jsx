@@ -4,6 +4,7 @@ import CTA from "./CTA";
 import Cross from "../assests/cross.png"
 function page2text() {
   return (
+    <div className="page2backgroundwrapper">
     <div className="page2container">
       <div className="pag2textwrapper">
         <div className="page2headerwrapper">
@@ -54,7 +55,18 @@ function page2text() {
 </div>
 <img src={Cross} className="CTAcross"/>
 </div>
-
+</div>
+<div className="page2svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="1000" viewBox="0 0 100% 1195" fill="none">
+<path d="M1920 0C1515 719 540 830 0 830V1195H1920V0Z" fill="url(#paint0_linear_1_75)"/>
+<defs>
+<linearGradient id="paint0_linear_1_75" x1="960" y1="0" x2="960" y2="1195" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F7FAFF"/>
+<stop offset="1" stop-color="#E8F0FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
+</div>
     </div>
   )
 }

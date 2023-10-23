@@ -5,6 +5,8 @@
     flex-wrap: wrap;
     gap:20px;
     padding:40px;
+    grid-area: 1/1;
+    z-index:1;
     /* background:linear-gradient(180deg, #3F6FC1 0%, #05445E 100%); */
 }
 .earn{
@@ -114,8 +116,26 @@ letter-spacing: -0.72px;
 .spacing{
     margin: 0;
 }
+.page2backgroundwrapper{
+    display: grid;
+    /* place-items: center; */
+}
+.page2svg{
+    grid-area: 1/1;
+    align-self: start;
+}
 @media screen and (max-width:460px){
     .CTAcross{
        display: none;
    }  
+   .page2svg{
+    display: none;
+}
+.rowwrapper{
+    display: flex;
+   justify-content: space-around;
+}
+.bullets{
+   display: none;
+    }
 }

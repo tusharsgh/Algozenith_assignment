@@ -66,7 +66,7 @@ function CTA() {
       </div>
       <div className="CTAtext">Flexible payment options, including no-<p>cost EMI, are available</p></div>
       </div>
-    <button className="CTAbutton">Join Now {"->"}</button>
+    <button className="CTAbutton">Join Now </button>
       </div>
     </div>
   

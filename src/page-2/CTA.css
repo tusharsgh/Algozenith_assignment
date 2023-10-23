@@ -109,6 +109,7 @@ border: 1px solid #CFF1FF;
 background: linear-gradient(91deg, #FFF 0%, #DFF6FF 144.63%);
 padding: 16px 20px;
 flex-grow: 1;
+border:none;
 }
 .svg-img{
    grid-area: 1/1;

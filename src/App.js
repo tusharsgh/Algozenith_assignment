@@ -5,7 +5,8 @@ import Logo from './logo/logo.jsx';
 import Page2 from './page-2/page2';
 function App() {
   return (
-    <div className="main-display">
+   <div className="main-display">
+    
 <div className="page-1-contianer">
 <div className="ellipse"></div>
    <div className="main-wrapper" >

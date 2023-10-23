@@ -95,7 +95,7 @@ justify-content: center;
   align-items: center;
   /* flex-direction: column; */
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   /* overflow: hidden; */
 }
 .page-1-contianer {
@@ -111,6 +111,7 @@ justify-content: center;
 .main-display{
   display: flex;
   flex-direction: column;
+  overflow: visible;
 }
 .page1textwrapper{
 

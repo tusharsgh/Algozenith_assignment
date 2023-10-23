@@ -66,7 +66,7 @@ z-index: 1;
 }
 .logo-wrapper{
     display: flex;
-   position: relative;
+   /* position: relative; */
    flex-direction:column;
    height:478px;
    width:478px;

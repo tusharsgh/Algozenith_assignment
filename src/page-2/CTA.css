@@ -41,11 +41,8 @@ letter-spacing: -0.72px;
 }
 .CTAlogo{
 opacity: 20%;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
- 
+display: grid;
+ place-items: center;
 
 
 
@@ -60,10 +57,12 @@ border-radius: 16px 16px 0px 0px;
 box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6);
 }
 .Z{
-    position:absolute;
-    margin-left: 50px;
+    /* position:absolute; */
+    margin-left: 40px;
     height: 70px;
     width: 70px;
+    grid-area: 1/1;
+    z-index: 2;
 }
 .CTAwrapper{
     /* box-shadow: 0px 4px 200px 0px #FFF, 0px 0px 250px 0px rgba(9, 64, 91, 0.6); */
@@ -110,6 +109,9 @@ border: 1px solid #CFF1FF;
 background: linear-gradient(91deg, #FFF 0%, #DFF6FF 144.63%);
 padding: 16px 20px;
 flex-grow: 1;
+}
+.svg-img{
+   grid-area: 1/1;
 }
 @media (max-width:460px) {
     .svg-img{
